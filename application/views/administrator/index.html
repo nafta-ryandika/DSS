@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Program Studi Sistem Informasi</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+</head>
+
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-users"></i> <span>Administrator</span></a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                        <div class="menu_section">
+                            <ul class="nav side-menu">
+                                <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                                <li><a><i class="fa fa-edit"></i>Data Kriteria<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="data_kriteria.html">Data Kriteria</a>
+                                        </li>
+                                        <li><a href="data_perbandingan_kriteria.html">Data Perbandingan Kriteria</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a><i class="fa fa-edit"></i>Data Subkriteria<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="data_subkriteria.html">Data Subkriteria</a>
+                                        </li>
+                                        <li><a href="data_perbandingan_subkriteria.html">Data Perbandingan Subkriteria</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="data_administrator.html"><i class="fa fa-user"></i>Data Administrator</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="images/img.jpg" alt="">John Doe
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                                    <li><a href="data_administrator.html">  Profile</a></li>
+                                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="x_panel fixed_height_320">
+                                <div class="x_title">
+                                    <h2>Selamat Datang</h2>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                    <h5>selamat datang di halaman administrator sistem penunjang keputusan rekomendasi topik skripsi</h5>
+                                </div>
+                            </div>  
+                        </div>
+                        
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="x_panel fixed_height_320">
+                                <div class="x_title">
+                                    <h2>Topik Skripsi</h2>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="x_content">
+                                    <h4>Persentase rekomendasi topik skripsi</h4>
+                                    <div class="widget_summary">
+                                        <div class="w_left w_25">
+                                            <span>1.5.2</span>
+                                        </div>
+                                        <div class="w_center w_55">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 66%;">
+                                                    <span class="sr-only">60% Complete</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w_right w_20">
+                                            <span>123k</span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                    <div class="widget_summary">
+                                        <div class="w_left w_25">
+                                            <span>1.5.3</span>
+                                        </div>
+                                        <div class="w_center w_55">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+                                                    <span class="sr-only">60% Complete</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w_right w_20">
+                                            <span>53k</span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="widget_summary">
+                                        <div class="w_left w_25">
+                                            <span>1.5.4</span>
+                                        </div>
+                                        <div class="w_center w_55">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                                                    <span class="sr-only">60% Complete</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w_right w_20">
+                                            <span>23k</span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="widget_summary">
+                                        <div class="w_left w_25">
+                                            <span>1.5.5</span>
+                                        </div>
+                                        <div class="w_center w_55">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 5%;">
+                                                    <span class="sr-only">60% Complete</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w_right w_20">
+                                            <span>3k</span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="widget_summary">
+                                        <div class="w_left w_25">
+                                            <span>0.1.5.6</span>
+                                        </div>
+                                        <div class="w_center w_55">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-green" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 2%;">
+                                                    <span class="sr-only">60% Complete</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w_right w_20">
+                                            <span>1k</span>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="tile-stats">
+                                <div class="icon"><i class="fa fa-check-square-o"></i></div>
+                                <div class="count">179</div>
+                                    <h3>Pengguna</h3>
+                                    <p>jumlah pengguna sistem rekomendasi topik skripsi.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="dashboard_graph x_panel">
+                                <div class="row x_title">
+                                    <div class="col-md-6">
+                                        <h3>User activities</h3>
+                                    </div>
+                                </div>
+                                <div class="x_content">
+                                    <div class="demo-container" style="height:250px">
+                                        <div id="placeholder3xx3" class="demo-placeholder" style="width: 100%; height:250px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- footer content -->
+                <footer>
+                    <div class="">
+                        <p class="pull-right">©2015 All Rights Reserved. Nafta Ryandika Isyaca Fahmi Powered by <a>Program Studi Sistem Informasi</a>. |
+                            <span class="lead"></i> Universitas Jember</span>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </footer>
+                <!-- /footer content -->
+
+            </div>
+            <!-- /page content -->
+        </div>
+
+
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="js/nicescroll/jquery.nicescroll.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script type="text/javascript" src="js/flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="js/flot/curvedLines.js"></script>
+    <script>
+        //random data
+        var d1 = [
+        [0, 1], [1, 9], [2, 6], [3, 10], [4, 5], [5, 17], [6, 6], [7, 10], [8, 7], [9, 11], [10, 35], [11, 9], [12, 12], [13, 5], [14, 3], [15, 4], [16, 9]
+    ];
+
+        //flot options
+        var options = {
+            series: {
+                curvedLines: {
+                    apply: true,
+                    active: true,
+                    monotonicFit: true
+                }
+            },
+            colors: ["#26B99A"],
+            grid: {
+                borderWidth: {
+                    top: 0,
+                    right: 0,
+                    bottom: 1,
+                    left: 1
+                },
+                borderColor: {
+                    bottom: "#7F8790",
+                    left: "#7F8790"
+                }
+            }
+        };
+        var plot = $.plot($("#placeholder3xx3"), [{
+            label: "Registrations",
+            data: d1,
+            lines: {
+                fillColor: "rgba(150, 202, 89, 0.12)"
+            }, //#96CA59 rgba(150, 202, 89, 0.42)
+            points: {
+                fillColor: "#fff"
+            }
+                }], options);
+    </script>
+    <!-- /flot -->
+    <!--  -->
+</body>
+</html>
